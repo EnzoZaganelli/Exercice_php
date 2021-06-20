@@ -1,0 +1,59 @@
+body{
+    overflow-x: hidden;
+}
+#logo img{
+    width: 100vw;
+}
+
+nav{
+    width: 20vw;
+    border: 1px solid darkblue;
+    float: left;
+    height: 82vh;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+#new-recipe{
+    width: 75vw;
+    float: left;
+    padding-left: 10px;
+}
+
+.wrapper_recipe{
+    width: 28%;
+    float: left;
+    border: 1px solid darkblue;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.wrapper_recipe img{
+    width: 100%;
+    height: 200px;
+}
+
+.edson{
+    width: 28%;
+    float: left;
+    border: 1px solid rgb(139, 0, 0);
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#new-recipe img{
+    width: 100%;
+    height: 200px;
+}
+
+
+
+nav li a.current{
+	text-decoration: none;
+	color: rgb(255, 0, 0);
+	font-weight: bold;
+}
